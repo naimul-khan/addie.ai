@@ -2,6 +2,7 @@ body {
     margin: 0px;
     width: 100%; 
     background-color: #fcfbf9;
+    min-width: 1110px; 
 }
 
 #header { 
@@ -12,5 +13,39 @@ body {
     background: -webkit-linear-gradient(left, #77448e , #5548a5); /* For Safari 5.1 to 6.0 */
     background: -o-linear-gradient(right, #77448e, #5548a5); /* For Opera 11.1 to 12.0 */
     background: -moz-linear-gradient(right, #77448e, #5548a5); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(to right, #77448e , #5548a5); /* Standard syntax *
+    background: linear-gradient(to right, #77448e , #5548a5); /* Standard syntax */
+}
+
+#centered-content { 
+    width: 1000px;
+    position:relative;
+    margin: 0 auto;
+}
+
+#header-links { 
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px; 
+}sssss
+
+ul { 
+    list-style-type: none;
+    text-decoration: none; 
+    width: 100%; 
+    position: relative;
+    display: inline-block;
+    
+}ss
+
+ul li { 
+    display: inline-block; 
+    padding: 10px; 
+    top: 20px;
+    
+}
+
+ul a { 
+    text-decoration: none;
+    color:  #fcfbf9;
 }
