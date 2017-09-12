@@ -1,0 +1,16 @@
+body { 
+    margin: 0px;
+    width: 100%; 
+    background-color: #fcfbf9;
+}
+
+#header { 
+    margin: 0px;
+    margin-top: -15px;
+    width: 100%; height: 600px;
+    background: #77448e; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left, #77448e , #5548a5); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #77448e, #5548a5); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #77448e, #5548a5); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #77448e , #5548a5); /* Standard syntax *
+}
