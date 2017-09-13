@@ -1,7 +1,10 @@
+/*
 div { 
     border: 1px solid; 
     border-color: yellow; 
 }
+
+*/
 body { 
     margin: 0px;
     width: 100%; 
@@ -12,7 +15,7 @@ body {
 #header { 
     margin: 0px;
     margin-top: -15px;
-    width: 100%; height: 600px;
+    width: 100%; height: 625px;
     background: #77448e; /* For browsers that do not support gradients */
     background: -webkit-linear-gradient(left, #77448e , #5548a5); /* For Safari 5.1 to 6.0 */
     background: -o-linear-gradient(right, #77448e, #5548a5); /* For Opera 11.1 to 12.0 */
@@ -54,16 +57,47 @@ ul a {
     color:  #fcfbf9;
 }
 
-#intro { 
+#intro-container { 
     position: absolute;
-    width: 40%; 
+    width: 45%; 
     float: left;
     display: inline-block;
+    height: 500px; 
+    padding-left: 10px; 
 }
+
+#intro { 
+    position: absolute; 
+    top 50%; 
+    bottom: 50%; 
+    padding: 10px;  
+    left: 45px;
+    color: #fcfbf9;
+    font-family: 'Montserrat';
+}
+
+#intro h1 { 
+    font-style: normal;
+    font-weight: 400;
+    font-size: 54px;
+}
+
+#intro h3 { 
+    font-style: normal;
+    font-weight: 100;
+    font-size: 20px;
+    font-style: oblique;
+}
+}
+
 #header-images { 
     position: relative; 
     display: inline-block; 
-    width: 60%; 
+    width: 55%; 
     float: right;
-    
+    height: 500px; 
+}
+
+#header-images img { 
+    float: right; 
 }
