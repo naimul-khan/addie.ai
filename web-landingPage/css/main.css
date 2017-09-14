@@ -24,7 +24,7 @@ body {
 }
 
 #centered-content { 
-    width: 1000px;
+    width: 999px;
     position:relative;
     margin: 0 auto;
 }
@@ -110,7 +110,7 @@ ul a {
     padding: 8px;
     text-decoration-line: none;
     color: #8b9292;
-    background: #fcfbf9; 
+    background: #e9e8e8; 
 }
 
 #header-images { 
@@ -123,4 +123,24 @@ ul a {
 
 #header-images img { 
     float: right; 
+}
+
+#middle-content { 
+    width: 100%; 
+    height: 400px;
+    background-color: #e9e8e8;
+    
+}
+
+#middle-container { 
+    width: 999px;
+    position:relative;
+    margin: 0 auto;
+}
+
+#mid1 { 
+    position: relative; 
+    display: inline-block;
+    float: left;
+    height: 400px; width: 330px;
 }
