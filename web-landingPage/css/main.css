@@ -88,6 +88,29 @@ ul a {
     font-size: 20px;
     font-style: oblique;
 }
+
+#intro #view-links { 
+    display: block;
+    position: absolute; 
+    padding-top: 20px; 
+}
+#intro a {
+    border: 1px solid; 
+    border-color: #fcfbf9;
+    border-radius: 5px;
+    padding: 8px;
+    text-decoration-line: none;
+    color: #fcfbf9;
+}
+
+#intro a:hover {
+    border: 1px solid; 
+    border-color: #fcfbf9;
+    border-radius: 5px;
+    padding: 8px;
+    text-decoration-line: none;
+    color: #8b9292;
+    background: #fcfbf9; 
 }
 
 #header-images { 
