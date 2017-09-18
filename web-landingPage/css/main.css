@@ -145,3 +145,11 @@ ul a {
     height: 400px;
     width: 330px;
 }
+
+#mid1 h3  {
+    color: #fcfbf9;
+    font-family: 'Montserrat';
+    position: relative; 
+    display: inline-block; 
+    margin: 0 auto; 
+}
